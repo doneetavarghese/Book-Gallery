@@ -1,0 +1,265 @@
+*{
+    margin: 0;}
+
+h1{font-family: 'Dhurjati', sans-serif;
+font-family: 'Dosis', sans-serif;
+color: white;
+font-weight: bold;
+font-size: 50px;}
+
+.header{
+    background-color: darkblue;
+    width:100%;
+    height:80px;}
+
+.name{
+    width:50%;
+    float: left;
+    padding-left: 40px;}
+
+.link {
+    width: 50%;}
+
+  .home{
+    color: white;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;}
+    
+   .home:hover{
+    color: red;
+    background-color:blue;}
+   
+   .banner{
+    background-image: url("https://www.bookswagon.com/bannerimages/80_inr.jpg?v=2.1");
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;}
+   
+   .banner1{
+    background-image: url(https://www.bookswagon.com/images/promotionimages/web/2_CuratedWeb.jpg?v=3.5);
+    width:100%;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top:0px;}
+
+    p{
+    color: white;
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 300px;}
+
+.main1{
+    background-color:white;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;}
+
+.col{
+    background-color:azure;
+    margin: 10px;
+    width: 200px;
+    height: 420px;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 1px;}
+
+img{
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;}
+
+h5{
+    color:rgba(255, 0, 0, 0.836);
+    font-size: x-large;}
+
+del{
+    color: black;
+    font-size: large;}
+
+button{
+    background-color: darkblue;
+    color: azure;}
+
+button:hover{
+    background-color: deepskyblue;
+    color: red;}
+
+.best{
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+    color: rgba(255, 0, 0, 0.954);}
+    
+.main2{
+    margin:20px;
+    background-color:white;
+    width: 100%;
+    height: 450;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;}
+
+.best1{
+    background-image: url(https://www.bookswagon.com/images/promotionimages/web/MedicalWeb.jpg?v=3.5);
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px;}
+
+
+.footer{
+    background-color: rgba(128, 128, 128, 0.717);
+    width: 100%;
+    height: 300px;
+    margin: 15px;
+}
+
+.footer1{
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 60px;
+    padding-top: 30px;}
+
+.connect{
+    padding-left: 90px;
+    width: 100px;
+    height: 150px;
+    margin-top: 10px;
+    font-size: x-large;}
+    
+    .con1{
+        color: black;
+    }
+
+
+
+@media  screen and ( max-width:400px){
+    *{
+        margin:0px;
+        padding: 0px;
+        width: 400px;
+    }
+
+    .header{
+        background-color: darkblue;
+        width:100%;
+        min-height:80px;
+        background-size: contain;}
+    
+   .name{
+        width:50%;
+        float: left;
+        line-height: 10px;
+        padding-left: 40px;}
+
+    
+
+.banner1{
+     background-image: url(https://www.bookswagon.com/images/promotionimages/web/2_CuratedWeb.jpg?v=3.5);
+     width:100%;
+     height: 50px;
+     background-repeat: no-repeat;
+     background-size:contain;
+     position: sticky;
+     margin-bottom: 2px;}
+
+.banner{
+     background-image: url("https://www.bookswagon.com/bannerimages/80_inr.jpg?v=2.1");
+     width: 100%;
+     height: 550px;
+     background-repeat: no-repeat;
+     background-size:contain;
+     margin-top: 5px;}
+
+.main1{
+    background-color:white;
+    width: 100%;
+    height: 2800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;}
+        
+.col{
+    background-color:azure;
+    margin: 5px;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 1px;}
+
+.col button{
+    align-items: center;}
+            
+        
+img{
+     width: 100%;
+    height: 300px;
+    border: 2px solid black;}
+
+button{
+    background-color: darkblue;
+    color: azure;
+    width: 60px;}
+
+ .main2{
+    margin:20px;
+    background-color:white;
+    width: 100%;
+    height: 1450;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;}
+
+ .best1{
+    background-image: url(https://www.bookswagon.com/images/promotionimages/web/MedicalWeb.jpg?v=3.5);
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+     background-size:contain;
+    margin: 25px;}
+
+
+                }
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+
+     
+    
+
+
+    
+
+
+
+
+
